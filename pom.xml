@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>cool.scx</groupId>
+        <artifactId>scx-parent</artifactId>
+        <version>1.2.3</version>
+    </parent>
+
+    <artifactId>scx-example</artifactId>
+    <packaging>jar</packaging>
+    <name>scx-example</name>
+
+    <version>0.0.1</version>
+
+    <description>SCX-EXAMPLE : SCX 示例</description>
+    <url>https://github.com/scx567888/scx-example</url>
+
+    <dependencies>
+
+        <!-- scx 拓展包 -->
+        <dependency>
+            <groupId>cool.scx</groupId>
+            <artifactId>scx-ext</artifactId>
+            <version>${scx-ext.version}</version>
+        </dependency>
+
+    </dependencies>
+
+    <properties>
+        <scx.mainClass>cool.scx.ext.AllExtApp</scx.mainClass>
+        <scx-ext.version>1.6.7</scx-ext.version>
+    </properties>
+
+</project>
